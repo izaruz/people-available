@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Nunito,sans-serif;
+    font-size: .813rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #70657b!important;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+}
+.main-header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+    z-index: 100;
+}
+.hero{
+    background: #fbfcfc;
+}
+.card-hero{
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.card-person {
+    border-radius: 10px;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08);
+    border: 0;
+}
